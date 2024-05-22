@@ -15,7 +15,8 @@ cmake --build ./
 ```
 ## To run experiments with confidence-based global robustness:
 1. For DNNs with 2 output classes:
-   To run Query 1:
+
+To run Query 1:
 
 ```
   cp src/engine/Marabou_robustness_Query1.cpp src/engine/Marabou
