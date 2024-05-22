@@ -26,7 +26,7 @@ To run Query 1:
   ./build/Marabou resources/nnet/'network_name.nnet' 'input_distance(epsilon)_value'
   
 ```
-2. To run Query 2:
+To run Query 2:
 ```
   cp src/engine/Marabou_robustness_Query1.cpp src/engine/Marabou
   cd build 
