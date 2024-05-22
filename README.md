@@ -23,6 +23,7 @@ cmake --build ./
   make
   cd ..
   ./build/Marabou resources/nnet/'network_name.nnet' 'input_distance(epsilon)_value'
+  
    ```
 2. To run Query 2:
    ```
@@ -31,6 +32,7 @@ cmake --build ./
   make
   cd ..
   ./build/Marabou resources/nnet/'network_name.nnet' 'input_distance(epsilon)_value'
+  
    ```
 Note that in our experiments, the DNNs German Credit, Adult and Law have 2 output classes.
 
