@@ -37,3 +37,15 @@ To run Query 2:
 ```
 Note that in our experiments, the DNNs German Credit, Adult and Law have 2 output classes.
 
+2. For DNNs with 3 output classes:
+Run Query X = 1, 2 and 3:
+
+```
+  cp src/engine/Marabou_robustness_QueryX.cpp src/engine/Marabou
+  cd build 
+  make
+  cd ..
+  ./build/Marabou resources/nnet/'network_name.nnet' 'input_distance(epsilon)_value'
+  
+```
+Note that in our experiments, the COMPAS DNN has 3 output classes.
