@@ -23,16 +23,18 @@ To run Query 1:
   cd build 
   make
   cd ..
-  ./build/Marabou resources/nnet/'network_name.nnet' 'input_distance(epsilon)_value'
+  ./build/Marabou resources/nnet/'network_name.nnet' resources/properties/smallNnet.txt
   
 ```
+where smallNnet.txt is the property file with confidence and epsilon values set by the user
+
 To run Query 2:
 ```
   cp src/engine/Marabou_robustness_Query1.cpp src/engine/Marabou
   cd build 
   make
   cd ..
-  ./build/Marabou resources/nnet/'network_name.nnet' 'input_distance(epsilon)_value'
+  ./build/Marabou resources/nnet/'network_name.nnet' resources/properties/smallNnet.txt
   
 ```
 Note that in our experiments, the DNNs German Credit, Adult and Law have 2 output classes.
@@ -45,7 +47,7 @@ Run Query X = 1, 2 and 3:
   cd build 
   make
   cd ..
-  ./build/Marabou resources/nnet/'network_name.nnet' 'input_distance(epsilon)_value'
+  ./build/Marabou resources/nnet/'network_name.nnet' resources/properties/smallNnet.txt
   
 ```
 Note that in our experiments, the COMPAS DNN has 3 output classes.
