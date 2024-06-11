@@ -1079,7 +1079,7 @@ void Marabou::prepareInputQuery()
         if (propertyFilePath != "")
         {
             printf("Property: %s\n", propertyFilePath.ascii()); // called
-            PropertyParser().parse(propertyFilePath, _inputQuery);
+            //PropertyParser().parse(propertyFilePath, _inputQuery);
         }
         else
             printf("Property: None\n");
