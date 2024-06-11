@@ -30,7 +30,7 @@ where smallNnet.txt is the property file with confidence and epsilon values set 
 
 To run Query 2:
 ```
-  cp src/engine/Marabou_robustness_Query1.cpp src/engine/Marabou
+  cp src/engine/Marabou_robustness_Query2.cpp src/engine/Marabou
   cd build 
   make
   cd ..
