@@ -2497,7 +2497,7 @@ void Marabou::prepareInputQuery()
     Equation equation76(Equation::GE);
     equation76.addAddend(1, *outSet1.begin());
     equation76.addAddend(-1, *outSet1.begin() + 1);
-    equation76.setScalar(0.1);
+    equation76.setScalar(0.0001);
     _inputQuery.addEquation(equation76);
 
     unsigned out22 = _inputQuery.getNumberOfVariables();
