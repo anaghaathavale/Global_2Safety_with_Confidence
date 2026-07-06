@@ -2508,7 +2508,7 @@ void Marabou::prepareInputQuery()
     Equation equation77(Equation::LE);
     equation77.addAddend(1, *outSet2.begin());
     equation77.addAddend(-1, *outSet2.begin() + 1);
-    equation77.setScalar(0.1);
+    equation77.setScalar(0.0001);
     _inputQuery.addEquation(equation77);
      
  
